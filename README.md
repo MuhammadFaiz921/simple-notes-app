@@ -11,7 +11,6 @@ A minimal, responsive **Sticky Notes App** built with **React**, inspired by Goo
 - ✅ **Persistent Notes** – Notes saved using `localStorage`
 - ✅ **Responsive Masonry Layout** – Clean, adaptive grid
 - ✅ **Light / Dark Mode Toggle** – Switch themes with a single click
-- ✅ **Toast Notifications** – Feedback for note actions
 
 ---
 
