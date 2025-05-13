@@ -1,12 +1,71 @@
-# React + Vite
+# 🗒️ Notes App (Google Keep Clone)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A minimal, responsive **Sticky Notes App** built with **React**, inspired by Google Keep. Quickly jot down thoughts, reminders, or lists — even hands-free with voice-to-text.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- ✅ **Add / Delete Notes** – Simple note-taking interface
+- ✅ **Voice to Text** – Use your mic to speak notes
+- ✅ **Persistent Notes** – Notes saved using `localStorage`
+- ✅ **Responsive Masonry Layout** – Clean, adaptive grid
+- ✅ **Light / Dark Mode Toggle** – Switch themes with a single click
+- ✅ **Toast Notifications** – Feedback for note actions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 Concepts Used
+
+- 🔹 React State Management (`useState`, `useEffect`)
+- 🔹 Custom Hook for Speech Recognition
+- 🔹 `localStorage` for persistent note saving
+- 🔹 Responsive CSS Grid with Masonry layout
+- 🔹 Theme switching using `next-themes` (if Next.js) or `useState` + Tailwind
+- 🔹 Icon-based UX using `react-icons`
+
+---
+
+## 🎤 Voice Input
+
+- Tap the **mic icon** to start or stop listening.
+- App auto-stops if silence is detected for 3 seconds.
+- Icon updates based on mic activity.
+
+---
+
+## 🚀 Live Demo
+
+Experience the app in action by visiting the live demo:
+
+[**Simple Notes App - Live Demo**](https://simple-notes-app-jade.vercel.app/) 🎉
+
+---
+
+## 🛠️ How to Run Locally
+
+```bash
+git clone https://github.com/MuhammadFaiz921/simple-notes-app.git
+cd notes-app
+npm install
+npm run dev  # or npm start
+```
+
+---
+
+## 💡 Future Improvements
+
+- 📝 Rich text formatting (bold, italic, etc.)
+- ☁️ Firebase or MongoDB integration
+- 🗃️ Drag and drop note rearranging
+- 🔍 Note search and filters
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
+
+---
+
+Made with ❤️ by [Muhammad Faiz]
